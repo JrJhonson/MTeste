@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Jquery Mobile</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	
+	<script>
+		$(document).bind("mobileinit", function () {
+		$.mobile.ajaxEnabled = false; 
+		});			
+	</script>
+	
+	<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+</head>
+<body>
+	<div id="index" data-role="page">
+		<div data-role="header">
+			<h1>Doceria</h1>
+		</div>
+		<div data-role="navbar">
+			<ul>
+				<li><a href="javascript:;">Bolo</a></li>
+				<li><a href="javascript:;">Doce</a></li>
+				<li><a href="pudim.html">Pudim</a></li>
+			</ul>
+		</div>
+		<div data-role="content">
+			<h2>Doceria Armani</h2>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			Integer ut libero ornare, tristique elit tristique, porttitor tortor. Vivamus malesuada nisl ac quam gravida,
+			tincidunt molestie felis 
+		</div>
+		
+	</div>
+</body>
+</html>
